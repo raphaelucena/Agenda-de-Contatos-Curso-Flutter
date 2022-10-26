@@ -1,0 +1,27 @@
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/raphael/workspace/ageda/agenda_contato/build/linux/x64/debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/snap/flutter/current/usr/bin/ninja cmTC_84496 && [1/2] Building CXX object CMakeFiles/cmTC_84496.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_84496
+FAILED: cmTC_84496 
+: && /snap/flutter/current/usr/bin/clang++    -B/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8 -B/snap/flutter/current/usr/lib/x86_64-linux-gnu -B/snap/flutter/current/lib/x86_64-linux-gnu -B/snap/flutter/current/usr/lib/ -L/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/lib/x86_64-linux-gnu -L/snap/flutter/current/lib/x86_64-linux-gnu -L/snap/flutter/current/usr/lib/ -lblkid -lgcrypt -llzma -llz4 -lgpg-error -luuid -lpthread -ldl CMakeFiles/cmTC_84496.dir/testCXXCompiler.cxx.o  -o cmTC_84496   && :
+/snap/flutter/current/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/libstdc++.so: referência não definida para "fstat64@GLIBC_2.33"
+/snap/flutter/current/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/libstdc++.so: referência não definida para "pthread_key_create@GLIBC_2.34"
+/snap/flutter/current/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/libstdc++.so: referência não definida para "pthread_rwlock_unlock@GLIBC_2.34"
+/snap/flutter/current/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/libstdc++.so: referência não definida para "pthread_detach@GLIBC_2.34"
+/snap/flutter/current/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/libstdc++.so: referência não definida para "pthread_setspecific@GLIBC_2.34"
+/snap/flutter/current/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/libstdc++.so: referência não definida para "__libc_single_threaded@GLIBC_2.32"
+/snap/flutter/current/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/libstdc++.so: referência não definida para "pthread_join@GLIBC_2.34"
+/snap/flutter/current/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/libstdc++.so: referência não definida para "pthread_rwlock_wrlock@GLIBC_2.34"
+/snap/flutter/current/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/libstdc++.so: referência não definida para "pthread_getspecific@GLIBC_2.34"
+/snap/flutter/current/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/libstdc++.so: referência não definida para "pthread_key_delete@GLIBC_2.34"
+/snap/flutter/current/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/libstdc++.so: referência não definida para "lstat@GLIBC_2.33"
+/snap/flutter/current/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/libstdc++.so: referência não definida para "stat@GLIBC_2.33"
+/snap/flutter/current/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/libstdc++.so: referência não definida para "pthread_once@GLIBC_2.34"
+/snap/flutter/current/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/libstdc++.so: referência não definida para "pthread_rwlock_rdlock@GLIBC_2.34"
+/snap/flutter/current/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/libstdc++.so: referência não definida para "pthread_create@GLIBC_2.34"
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
